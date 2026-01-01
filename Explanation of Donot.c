@@ -88,7 +88,8 @@ int main() {
 *If the surface is angled away, it picks . or ~.This is why the donut has highlights and shadows.
 *5. The Terminal "Hack"Finally, the code manages the display:memset(b, 32, 1760): Clears the frame by filling the character buffer with spaces (ASCII 32).printf("\x1b[H"): This is an ANSI escape code.
 *Instead of clearing the whole screen (which causes flickering), it tells the terminal to move the cursor back to the "Home" position (0,0) and overwrite the old frame with the new one.
-*Variable Map for ReferenceVariableRepresentsA, BThe rotation angles (over time).i, jThe "sweep" angles to draw the torus surface.z[ ]The depth buffer (keeps track of what's in front).b[ ]The character buffer (the actual pixels).NThe brightness value for a specific point.
+*Variable Map for ReferenceVariableRepresentsA, BThe rotation angles (over time).i, jThe "sweep" angles to draw the torus surface.z[ ]The depth buffer (keeps track of what's in front).b[ ]The character buffer (the actual pixels)
+*.NThe brightness value for a specific point.
 *
 */
 
