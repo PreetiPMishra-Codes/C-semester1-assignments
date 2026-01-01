@@ -22,6 +22,8 @@ int main()		//main function
     scanf("%d",&n);
     int t=arrangement(n);	//number of arrangements
     printf("The number of ways of arranging the matrices for multiplication = %d",t);
+	return 0;
 }
+
 
 
