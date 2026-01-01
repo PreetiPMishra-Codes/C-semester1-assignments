@@ -1,3 +1,16 @@
+Welcome to the House Program!
+This program is written in C.
+    ####
+   #    #
+  #      #
+ #        #
+############
+* **    ** *
+* **    ** *
+*    **    *
+*    **    *
+************
+    //start of the program
 #include <stdio.h>
 int main() {
     printf("Welcome to the House Program!\n");
@@ -41,4 +54,5 @@ else{
 //house successfully printed
 
     return 0;
+
 }
